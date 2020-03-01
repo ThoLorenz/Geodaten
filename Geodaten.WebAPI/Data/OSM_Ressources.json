@@ -1,0 +1,7 @@
+﻿{
+  {
+    // Alle Elemente mit Beschreibungen in Deutsch
+    // amenity,	post_box,	Knoten oder Punkt,	Briefkasten (Anbieter mit operator=* markieren).
+    "Elements": "https: //wiki.openstreetmap.org/wiki/DE:Map_Features"
+  }
+}
