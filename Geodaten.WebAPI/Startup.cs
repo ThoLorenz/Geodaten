@@ -1,3 +1,4 @@
+using Geodaten.Service.UrlService;
 using Geodaten.WebAPI.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +21,7 @@ namespace Geodaten.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
             {
+            services.AddTransient<IOpenStreetMapUrlService, OpenStreetMapUrlService>();
             services.AddDbContext<Geodaten_Context>(opt => opt.UseSqlServer(Configuration.GetConnectionString("GeodatenContext")));
             services.AddControllers();
             }
@@ -35,6 +37,7 @@ namespace Geodaten.WebAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors();
 
             app.UseAuthorization();
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodaten.Service", "Geodate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodaten.Tests", "Geodaten.Tests\Geodaten.Tests.csproj", "{61C27264-1E1C-4C73-8F1A-34A36D8FBA36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodaten.Services", "Geodaten.Services\Geodaten.Services.csproj", "{4B3FEF34-B2D2-4548-A742-EA33DD66A92E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{61C27264-1E1C-4C73-8F1A-34A36D8FBA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61C27264-1E1C-4C73-8F1A-34A36D8FBA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61C27264-1E1C-4C73-8F1A-34A36D8FBA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3FEF34-B2D2-4548-A742-EA33DD66A92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3FEF34-B2D2-4548-A742-EA33DD66A92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3FEF34-B2D2-4548-A742-EA33DD66A92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3FEF34-B2D2-4548-A742-EA33DD66A92E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0

@@ -21,4 +21,9 @@
   <ItemGroup>
     <Content Remove="mono_crash.91852a8d4.0.json" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Geodaten.Services\Geodaten.Services.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
